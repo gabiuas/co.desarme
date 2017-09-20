@@ -5,7 +5,7 @@ body{
 
 a{
 	font-size: 12pt;
-	color: rgb(0,0,210);
+	color: white;
 	font-weight:bold;
 	text-decoration: none;
 
@@ -22,16 +22,36 @@ hr {
 }
 
 a:hover{
-	color:white;
-	background-color: rgb(39,64,139);
+	color:rgb(91,162,232);
+	text-decoration: none;
 	text-shadow: none;
 
+
+}
+
+.no{
+
+	text-decoration: none;
+	text-shadow: none;
+	font-family:"Poppins";
+	color:white;
+	font-size: 35pt;
+
+}
+
+.no:hover{
+	
+	text-decoration: none;
+	text-shadow: none;
+	font-family:"Poppins";
+	color:white;
+	font-size: 35pt;
 }
 
 h1{
 	font-family:"Poppins";
-	color:rgb(0,0,128);
-	font-size: 50pt;
+	color:white;
+	font-size: 35pt;
 
 }
 
@@ -45,6 +65,12 @@ h3{
 	font-family:monospace;
 	font-size: 50pt;
 	color:rgb(39,64,139);
+}
+
+h4{
+	font-family:monospace;
+	font-size: 30pt;
+	color:rgb(0,0,128);
 }
 
 
@@ -63,11 +89,10 @@ p{
 .menu-item {
 	position: relative;
 	display: inline;
-	border-right:1.5px solid rgb(0,0,128);
-
+	border: 1.5px solid rgb(0,0,128);
 	padding: 5px 8px 5px 8px;
 	color: rgb(0,0,220);
-	text-shadow:  -1px 0 rgb(237,237,237),0 1px rgb(237,237,237),1px 0 rgb(237,237,237),0 -1px rgb(237,237,237);
+
 	
 }
 
@@ -76,20 +101,25 @@ p{
 	padding: 5px 8px 5px 8px;
 	color: rgb(0,0,220);
 	border-bottom: 1px solid rgb(0,0,128);
+	background-color: rgb(0,0,128);
+	border-radius: 10px;
+
 	
 	
 }
 
 .menu-item:hover {
 	cursor: pointer;
-	color:white;
-	background-color: rgb(39,64,139);
+	border-radius: 40px;
+	border: 1.5px solid white;
+
+	
 }
 
 .menu-item2:hover {
 	cursor: pointer;
-	color:white;
 	background-color: rgb(39,64,139);
+
 
 }
 
@@ -99,57 +129,50 @@ p{
 	margin: 0;
 	top: 100%;
 	left: 0%;
-	
+
 
 }
 
 .menu-item:hover .submenu {
 	visibility: visible;
-	background-color: rgb(237,237,237);
-	
+	background-color: rgb(0,0,128);
 
 	
 }
 
 .menu-item2:hover .submenu {
 	visibility: visible;
-	background-color: rgb(237,237,237);
-	
-
-	
+		
 }
 
 
 
 
 .links{
+	display: inline-block;
 	text-decoration: none;
 	list-style: none;
-	display: inline;
-	margin-left: 0px;
-	float: left;
-	width: 100.1%;
 	margin: 0;
 	padding: 0;
+	display: inline-block;
+	float:right;
+
 
 	
+
+
 
 }
 
 .links3{
 	text-decoration: none;
 	list-style: none;
-	display: inline;
-	margin-left: 0px;
 	float: left;
 	width: 100.1%;
 	margin: 0;
+	margin-top: 2.1px;
 	padding: 0;
-	border-left: 5px solid rgb(0,0,128);
-	border-right: 1px solid rgb(0,0,128);
-
-	
-
+	border-radius: 10px;	
 
 }
 
@@ -157,6 +180,16 @@ p{
 	text-align: center;
 	width: 100%;
 	display: inline-block;
+	
+}
+
+.left {
+	text-align: left;
+	margin-top: 25px;
+	margin-right: 25px;
+
+
+	
 	
 }
 
@@ -176,18 +209,13 @@ p{
 
 }
 
-.margem_pagina{
-	display: inline-block;
-	margin: 0px 10% 0px 10%;
-	background-color: rgb(100,169,247);
-	text-align: justify;
-}
+
 
 .margem_head{
 	display: inline-block;
-	margin: 65px 100px 50px 100px;
-	
-	
+	margin: 0px;
+	background-color: rgb(0,0,128);	
+	width: 100%;
 	
 }
 
@@ -219,8 +247,43 @@ p{
 	display: inline-block;
 	text-align: left;
 	width: 79%;
-	margin-top: 3px;
+	margin-top: 3px;	
 	
+}
+
+
+.margem_body4{
+	display: inline-block;
+	text-align: left;
+	width: auto;
+	margin-top: 100px;
+	float: left;
+	
+	
+}
+
+.margem_body5{
+	display: inline-block;
+	text-align: left;
+	width: auto;
+	margin-top: 100px;
+	float: right;
+	
+	
+}
+
+
+.margem_contato{
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+	
+}
+
+.margem_contato2{
+	display: inline-block;
+	text-align: center;
+	width: auto;
 	
 }
 
@@ -234,8 +297,6 @@ p{
 	vertical-align:top;
 	border-left: 5px solid rgb(0,0,128);
 
-	
-
 }
 
 .margem_texto{
@@ -248,8 +309,22 @@ p{
 	margin-top: 6%;
 }
 
+.esquerda{
+	margin-left: 30px;
+	margin-top: 10px;
+	display: inline-block;
+	float:left;
+	
+}
+
+
+
 .centralizar{
 	text-align: center;
+}
+
+.right{
+	margin-right: 100px;
 }
 
 .lateral{
@@ -268,6 +343,7 @@ p{
 	display: inline-block;
 	padding: 5px;
 	width: 98%;
+	color: blue;
 
 
 }
@@ -277,6 +353,29 @@ p{
 	background-color: rgb(0,0,128);
 
 }
+
+
+.caixa1 {
+	padding: 5px 8px 5px 8px;
+	color: rgb(0,0,220);
+	margin:20px;
+	float: left;
+	height: auto;
+	
+	
+}
+
+.caixa2 {
+	padding: 5px 8px 5px 8px;
+	color: rgb(0,0,220);
+	margin:20px;
+	float: right;
+	height: auto;
+	
+	
+}
+
+
 
 
 
