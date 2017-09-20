@@ -201,6 +201,14 @@ p{
 }
 
 
+.foto {
+	width: 100px;
+	height: 50px;
+	display: inline-block;
+	
+}
+
+
 
 .line{
 	width: 100%;
@@ -312,6 +320,7 @@ p{
 .esquerda{
 	margin-left: 30px;
 	margin-top: 10px;
+	margin-bottom: 10px;
 	display: inline-block;
 	float:left;
 	
