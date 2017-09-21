@@ -136,14 +136,12 @@ p{
 .menu-item:hover .submenu {
 	visibility: visible;
 	background-color: rgb(0,0,128);
-	z-index: 900;
 
 	
 }
 
 .menu-item2:hover .submenu {
 	visibility: visible;
-	z-index: 900;
 		
 }
 
@@ -240,7 +238,6 @@ p{
 	display: inline-block;
 	margin: 50px 170px 50px 170px;
 	text-align: left;
-	z-index: 950;
 	
 	
 }
