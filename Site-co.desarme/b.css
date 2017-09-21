@@ -9,6 +9,7 @@ a{
 	font-weight:bold;
 	text-decoration: none;
 
+
 }
 
 
@@ -24,12 +25,31 @@ a:hover{
 	color:rgb(91,162,232);
 	text-decoration: none;
 	text-shadow: none;
-	
+
+
 }
 
+.no{
+
+	text-decoration: none;
+	text-shadow: none;
+	font-family:"Poppins";
+	color:white;
+	font-size: 35pt;
+
+}
+
+.no:hover{
+	
+	text-decoration: none;
+	text-shadow: none;
+	font-family:"Poppins";
+	color:white;
+	font-size: 35pt;
+}
 
 h1{
-	font-family:"Indie Flower";
+	font-family:"Poppins";
 	color:white;
 	font-size: 35pt;
 
@@ -50,12 +70,6 @@ h3{
 h4{
 	font-family:monospace;
 	font-size: 30pt;
-	color:rgb(0,0,128);
-}
-
-h5{
-	font-family:monospace;
-	font-size: 20pt;
 	color:rgb(0,0,128);
 }
 
@@ -143,20 +157,10 @@ p{
 	display: inline-block;
 	float:right;
 
-}
+
+	
 
 
-.links2{
-	display: inline-block;
-	padding: 5px;
-	width: 98%;
-	color: rgb(0,0,220);
-
-}
-
-.links2:hover{
-	color:white;
-	background-color: rgb(0,0,128);
 
 }
 
@@ -220,7 +224,6 @@ p{
 	margin: 0px;
 	background-color: rgb(0,0,128);	
 	width: 100%;
-
 	
 }
 
@@ -244,7 +247,6 @@ p{
 	display: inline-block;
 	margin: 50px 100px 50px 100px;
 	text-align: left;
-
 	
 	
 }
@@ -301,32 +303,9 @@ p{
 	padding: 2px;
 	width: 15%;
 	vertical-align:top;
-
-
-}
-
-
-.margem_lateral2{
-	display: inline-block;
-	padding: 2px;
-	
-
-
-}
-
-
-.margem_lateral3{
-	display: inline-block;
-	padding: 2px;
-	width: 100%;
 	border-left: 5px solid rgb(0,0,128);
 
-	
-
-
 }
-
-
 
 .margem_texto{
 	padding: 7%
@@ -368,6 +347,21 @@ p{
 	
 }
 
+
+.links2{
+	display: inline-block;
+	padding: 5px;
+	width: 98%;
+	color: blue;
+
+
+}
+
+.links2:hover{
+	color:white;
+	background-color: rgb(0,0,128);
+
+}
 
 
 .caixa1 {
