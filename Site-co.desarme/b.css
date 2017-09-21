@@ -64,9 +64,11 @@ h5{
 p{
 	color: black;
 	font-family:"Indie Flower";
-	font-size: 12pt;
+	font-size: 15pt;
 	font-weight:bold;
 	text-align: justify;
+	word-spacing: 5px;
+	letter-spacing: 0.7px;
 
 }
 
@@ -392,6 +394,10 @@ p{
 	height: auto;
 	
 	
+}
+
+.prgf{
+	margin-left: 30px;
 }
 
 
