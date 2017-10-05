@@ -71,7 +71,18 @@ p{
 
 }
 
+.li{
+	color: black;
+	font-family:sans-serif;
+	font-size: 15pt;
+	text-align: justify;
+	word-spacing: 5px;
+	letter-spacing: 0.7px;
+}
 
+.top{
+	margin-top: 30px;
+}
 
 .menu-item {
 	position: relative;
@@ -322,6 +333,16 @@ p{
 	text-align: left;
 	width: auto;
 	float: right;
+	
+	
+}
+
+.margem_sobre{
+	display: inline-block;
+	margin: 80px 170px 50px 170px;
+	width: 76.5%;
+	text-align: left;
+	z-index: 950;
 	
 	
 }
